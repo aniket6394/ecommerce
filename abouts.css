@@ -1,0 +1,91 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General Body Styles */
+body {
+    background-color: #f4f4f4; /* Light background color */
+    color: rgb(0, 0, 0); /* Text color */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #080808; /* Dark background for navigation */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* About Section Styles */
+.about-section,
+.mission-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.about-section h2,
+.mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green color for headings */
+}
+
+.about-section p,
+.mission-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .about-section,
+    .mission-section {
+        width: 90%;
+    }
+}

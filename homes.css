@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background: #000000;
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #eef6fd;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #004a99;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.hero button {
+    background: #004a99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.hero button:hover {
+    background: #0078d4;
+}
+
+/* Categories Section */
+.categories {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.categories h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #004a99;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category div {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.category div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.category h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.category p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #eef6fd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #004a99;
+}
+
+blockquote {
+    margin: 10px 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
