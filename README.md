@@ -44,12 +44,6 @@ Welcome to the **eCommerce Website**! This project is a web-based platform desig
    start home.html # Windows
    ```
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit pull requests or report issues.
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 📧 **Contact:** If you have any questions, reach out at [your email or GitHub].
