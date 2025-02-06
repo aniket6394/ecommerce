@@ -1,18 +1,16 @@
 # E-Commerce Platform
 
 ## 🚀 Overview
-This is a full-featured e-commerce platform built using modern web technologies. It provides a seamless shopping experience with user authentication, product management, and a secure payment gateway.
+This is a simple e-commerce website built using HTML and CSS. It provides a clean and responsive design for an online shopping experience.
 
 ## 🛠️ Features
-- 🛍️ User authentication (Sign up, Login, Logout)
-- 🛒 Shopping cart and wishlist functionality
-- 📦 Order management
-- 💳 Secure payment integration
-- 📊 Admin panel for product and order management
-- 🔍 Search and filter options
+- 🛍️ Responsive design for mobile and desktop
+- 🎨 Modern UI with HTML and CSS
+- 🔍 Product listings and details page
+- 📌 Navigation bar and footer for easy browsing
 
 ## 🏗️ Tech Stack
-- **Frontend:** HTML5/CSS;
+- **Frontend:** HTML, CSS
 
 ## 📦 Installation
 
@@ -21,25 +19,15 @@ This is a full-featured e-commerce platform built using modern web technologies.
    git clone https://github.com/aniket6394/ecommerce.git
    cd ecommerce
    ```
-2. Install dependencies:
+2. Open the `index.html` file in your browser:
    ```bash
-   npm install  # or yarn install
-   ```
-3. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   ```
-   - Fill in your database credentials and API keys in `.env`.
-
-4. Start the development server:
-   ```bash
-   npm run dev  # or yarn dev
+   open index.html  # or manually open in a browser
    ```
 
 ## 🛠️ Usage
-- Visit `http://localhost:3000` to access the frontend.
-- Use the admin panel to manage products and orders.
-- Test payment functionality using a sandbox API key.
+- Browse through the product listings.
+- Navigate through different sections using the menu.
+- Customize styles in the `style.css` file.
 
 ## 🤝 Contributing
 Feel free to open issues and create pull requests! 🚀
@@ -48,4 +36,4 @@ Feel free to open issues and create pull requests! 🚀
 This project is licensed under the MIT License.
 
 ---
-Made with ❤️ by [Aniket and Anubhav](https://github.com/aniket6394)
+Made with ❤️ by [Aniket and Anubhav](https://github.com/aniket6394)(https://github.com/freak009) 
