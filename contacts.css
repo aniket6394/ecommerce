@@ -1,4 +1,4 @@
-/* Resetting some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +6,16 @@
     font-family: Arial, sans-serif;
 }
 
-/* General Body Styles */
+
 body {
-    background-color: #f4f4f4; /* Light background color */
-    color: #333; /* Text color */
+    background-color: #f4f4f4; 
+    color: #333; 
     line-height: 1.6;
 }
 
-/* Header Styles */
+
 header {
-    background-color: #4CAF50; /* Green background for header */
+    background-color: #4CAF50; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -25,9 +25,9 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Navigation Bar Styles */
+
 nav {
-    background-color: #000000; /* Dark background for navigation */
+    background-color: #000000; 
     overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ nav a:hover {
     color: black;
 }
 
-/* Contact Section Styles */
+
 .contact-section {
     padding: 40px 20px;
     text-align: center;
@@ -59,7 +59,7 @@ nav a:hover {
 .contact-section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #4CAF50; /* Green color for headings */
+    color: #4CAF50; 
 }
 
 .contact-section p {
@@ -67,8 +67,6 @@ nav a:hover {
     color: #555;
     margin-bottom: 30px;
 }
-
-/* Contact Form Styles */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -85,7 +83,7 @@ nav a:hover {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -93,7 +91,7 @@ nav a:hover {
 }
 
 .contact-form button {
-    background-color: #4CAF50; /* Green background for button */
+    background-color: #4CAF50; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -103,12 +101,12 @@ nav a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
-/* Footer Styles */
+
 footer {
-    background-color: #333; /* Dark background for footer */
+    background-color: #333; 
     color: white;
     text-align: center;
     padding: 20px;
@@ -117,15 +115,13 @@ footer {
 footer p {
     font-size: 1rem;
 }
-
-/* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     .contact-section {
         width: 90%;
     }
-
     .contact-form input,
     .contact-form textarea {
         width: 100%;
     }
 }
+

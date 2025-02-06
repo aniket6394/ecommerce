@@ -30,7 +30,6 @@ nav a:hover {
 background-color: #ddd;
 color: black;
 }
-
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

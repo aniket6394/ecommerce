@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +11,6 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-
-/* Header */
 header {
     background-color: #4CAF50;
     color: white;
@@ -41,7 +39,7 @@ nav a:hover {
     color: black;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     background-color: #eef6fd;
@@ -81,8 +79,6 @@ nav a:hover {
 .hero button:hover {
     background: #0078d4;
 }
-
-/* Categories Section */
 .categories {
     text-align: center;
     padding: 40px 20px;
@@ -135,7 +131,6 @@ nav a:hover {
     color: #777;
 }
 
-/* Testimonials Section */
 .testimonials {
     background: #eef6fd;
     padding: 40px 20px;
@@ -154,7 +149,7 @@ blockquote {
     color: #555;
 }
 
-/* Footer */
+
 footer {
     background-color: #000000;
     color: rgb(255, 255, 255);
